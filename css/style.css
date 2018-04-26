@@ -1,0 +1,140 @@
+body
+{
+  background:#333;;
+  color:#fff;
+}
+
+.clear
+{
+  clear: both;
+}
+
+/********** navbar **********/
+
+.navbar
+{
+  border-bottom:#008ed6 3px solid ;
+  opacity: 0.8;
+}
+
+.navbar .navbar-brand
+{
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+}
+.navbar-dark .navbar-nav .nav-link
+{
+  color: #fff;
+  font-size: 18px;
+}
+.navbar-dark .navbar-nav .nav-link:focus,
+ .navbar-dark .navbar-nav .nav-link:hover
+{
+  font-size: 20px;
+}
+
+.navbar a
+{
+  outline: 0;
+}
+
+/********** home **********/
+
+.home
+{
+  background: url("../img/home.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 700px;
+  
+}
+.dark-overlay
+{
+  background-color: rgba(0, 0, 0, .5);
+  min-height: 700px;
+}
+
+.home-inner
+{
+  padding-top: 150px;
+}
+
+.hom .card-form
+{
+  opacity: .8;
+}
+
+.home i
+{
+  color: #008ed6;
+  background: #fff;
+  padding: 4px;
+  border-radius: 7px;
+  font-size: 30px;
+}
+
+input[type="submit"]:hover,input[type="submit"]:focus
+{
+  background: #008ed6;
+  cursor: pointer;
+}
+
+/********** explore **********/
+
+.find
+{
+  padding: 65px 0 ;
+}
+
+.find h1
+{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.find p
+{
+  padding: 20px 0 ;
+}
+
+.content h3
+{
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.content
+{
+  background: #fff;
+  padding: 50px 0 ;
+  color: #333;
+}
+
+.content i
+{
+  color:#fff ;
+  background: #333;
+  padding: 4px;
+  border-radius: 7px;
+  font-size: 30px;
+}
+
+/********** footer **********/
+
+.footer
+{
+  padding: 30px 0;
+}
+
+.footer p
+{
+  padding: 10px 0;
+}
+
+.footer button
+{
+  cursor: pointer;
+}
+
